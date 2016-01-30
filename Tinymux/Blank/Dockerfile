@@ -5,7 +5,7 @@ RUN pacman -Syu --needed --noconfirm git gcc nano make mariadb
 # Mariadb setup
 RUN mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 # Clone Mu2
-RUN git clone https://github.com/ccubed/MuDocker.git && cd MuDocker
+RUN git clone https://github.com/ccubed/MuDocker.git && cd MuDocker && ls
 # Run .configure
 RUN cd MuDocker/Tinymux/Blank/tinymux/mux/src && ./configure --enable-stubslave
 # Wait and then run make
@@ -21,4 +21,4 @@ EXPOSE 2860
 # Set up mux user
 RUN useradd -m -G wheel -s /bin/bash pennmu && chown pennmu:pennmu -R MuDocker
 # Set up our default run cmd
-CMD sudo -u pennmu ./MuDocker/Tinymux/Blank/tinymux/mux/game/Startmux && /usr/bin/mysqld_safe
+CMD /usr/bin/mysqld_safe && cd ./MuDocker/Tinymux/Blank/tinymux/mux/game && sudo -u pennmu ./Startmux
