@@ -1,0 +1,26 @@
+2016.0129:223740 MUX INI/START: Starting: MUX 2.12.0.2 #1 [ALPHA]
+2016.0129:223740 MUX INI/START: Build date: Fri Jan 29 22:33:14 EST 2016
+2016.0129:223740 MUX NET/STUB : Stub slave started on fd 4
+2016.0129:223740 MUX INI/LOAD : Registered netmux modules.
+2016.0129:223740 MUX INI/LOAD : Opened interface for StubSlave management.
+2016.0129:223740 AnonymousMUX CNF/NFND : module: Module sqlproxy not found
+2016.0129:223740 AnonymousMUX CNF/NFND : module: Module sqlslave not found
+2016.0129:223740 AnonymousMUX INI/LOAD : Couldn’t create interface to Query Server.
+2016.0129:223740 AnonymousMUX INI/LOAD : Using game db files: (data/netmux.dir,data/netmux.pag).
+2016.0129:223740 AnonymousMUX INI/LOAD : Loading: data/netmux.db
+LOADING: data/comsys.db
+LOADING: data/comsys.db (done)
+LOADING: data/mail.db
+LOADING: data/mail.db (done)
+2016.0129:223740 AnonymousMUX INI/LOAD : Load complete.
+2016.0129:223740 AnonymousMUX NET/SLAVE: DNS lookup slave started on fd 7
+2016.0129:223939 AnonymousMUX NET/CONN : [8/::1] Connection opened (remote port 34160)
+2016.0129:223943 AnonymousMUX CON/LOGIN: [8/::1] Connected to Wizard(#1) in Auxiliary Room(#11)
+2016.0129:224008 AnonymousMUX WIZ/SHTDN: Shutdown by Wizard(#1)
+2016.0129:224008 AnonymousMUX WIZ/SHTDN: Shutdown status: 
+2016.0129:224008 AnonymousMUX NET/DISC : [8/::1] Logout by Wizard(#1) <Reason: Game Shutdown>
+2016.0129:224008 AnonymousMUX DMP/DUMP : Dumping: data/netmux.db.new.#1#
+rename data/netmux.db.new to data/netmux.db.new.prev fails with errno of No such file or directory(2)
+2016.0129:224008 AnonymousMUX DMP/DONE : Dump complete: data/netmux.db.new.#1#
+2016.0129:224008 AnonymousMUX INI/LOAD : Revoked netmux modules.
+2016.0129:224008 AnonymousMUX NET/STUB : process exited unexpectedly with exit status 0.

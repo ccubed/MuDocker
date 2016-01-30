@@ -1,0 +1,12 @@
+START OF LOG.
+[01/28 20:11:30] Indexing file txt/help.txt
+[01/28 20:11:30] 1853 topics indexed.
+[01/28 20:11:30] Indexing file txt/news.txt
+[01/28 20:11:30] 2 topics indexed.
+[01/28 20:11:30] Indexing file txt/help.txt (admin topics)
+[01/28 20:11:30] 1 topics indexed.
+[01/28 20:11:30] Indexing file txt/news.txt (admin topics)
+[01/28 20:11:30] 0 topics indexed.
+[01/28 20:17:05] WIZ: One(#1PWc) --> MuReq(#3TWn): WIZARD FLAG SET
+[01/28 20:17:49] WIZ: One(#1PWc) --> MuReq(#3TUWn): SQL_OK POWER SET
+END OF LOG.

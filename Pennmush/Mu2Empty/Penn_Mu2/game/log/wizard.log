@@ -1,0 +1,12 @@
+START OF LOG.
+[01/29 15:41:03] Indexing file txt/help.txt
+[01/29 15:41:03] 1853 topics indexed.
+[01/29 15:41:03] Indexing file txt/news.txt
+[01/29 15:41:03] 2 topics indexed.
+[01/29 15:41:03] Indexing file txt/help.txt (admin topics)
+[01/29 15:41:03] 1 topics indexed.
+[01/29 15:41:03] Indexing file txt/news.txt (admin topics)
+[01/29 15:41:03] 0 topics indexed.
+[01/29 15:42:15] WIZ: One(#1PWc) --> Arc(#4TW): WIZARD FLAG SET
+[01/29 15:42:19] WIZ: One(#1PWc) --> Arc(#4TUW): SQL_OK POWER SET
+END OF LOG.
