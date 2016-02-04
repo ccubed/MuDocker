@@ -1,0 +1,46 @@
+START OF LOG.
+[01/28 20:11:30] CONFIG: directive 'who_file' missing from cnf file, using default value.
+[01/28 20:11:30] CONFIG: directive 'who_html_file' missing from cnf file, using default value.
+[01/28 20:11:30] 1.8.6
+[01/28 20:11:30] MUSH restarted, PID 17671, at Thu Jan 28 20:11:30 2016
+[01/28 20:11:30] Setting ctype locale to en_US.utf8
+[01/28 20:11:30] Setting time locale to en_US.utf8
+[01/28 20:11:30] Setting messages locale to en_US.utf8
+[01/28 20:11:30] Setting collate locale to en_US.utf8
+Listening on socket file data/netmush.sock (fd 9)
+[01/28 20:11:30] Couldn't open cached text file ''
+[01/28 20:11:30] Unable to open data/indb.gz with libz: No such file or directory
+
+[01/28 20:11:30] Couldn't open data/indb! Creating minimal world.
+[01/28 20:11:30] Access file access.cnf not found.
+[01/28 20:11:30] Missing index for help_command anews
+[01/28 20:11:30] CONFIG: Invalid command or restriction for anews.
+[01/28 20:11:30] CONFIG: deprecated statement attribute_alias used
+[01/28 20:11:30] CONFIG: deprecated statement attribute_alias used
+[01/28 20:11:30] CONFIG: deprecated statement attribute_alias used
+[01/28 20:11:30] CONFIG: deprecated statement attribute_alias used
+[01/28 20:11:30] CONFIG: deprecated statement attribute_alias used
+[01/28 20:11:30] CONFIG: deprecated statement attribute_alias used
+[01/28 20:11:30] CONFIG: deprecated statement attribute_alias used
+[01/28 20:11:30] CONFIG: deprecated statement attribute_alias used
+[01/28 20:11:30] Spawning info slave, communicating using socketpair, pid 17674.
+Listening on port 4201 using IPv4.
+[01/28 20:11:30] 4089 file descriptors available.
+[01/28 20:11:30] RESTART FINISHED.
+info_slave: starting event loop using epoll.
+[01/28 20:18:55] RPT: SHUTDOWN by One(#1)
+
+[01/28 20:18:55] Terminating info_slave pid 17674
+[01/28 20:18:55] DUMPING: data/outdb.#2#
+[01/28 20:18:55] DUMPING: data/outdb.#2# (done)
+[01/28 20:18:55] Process statistics:
+[01/28 20:18:55] Time used:            0 user            0 sys
+[01/28 20:18:55] Max res mem:       7180 pages    29409280 bytes
+[01/28 20:18:55] Integral mem:         0 shared          0 private          0 stack
+[01/28 20:18:55] Page faults:          0 hard          871 soft             0 swapouts
+[01/28 20:18:55] Disk I/O:           112 reads         136 writes
+[01/28 20:18:55] Network I/O:          0 in              0 out
+[01/28 20:18:55] Context swi:        491 vol             3 forced
+[01/28 20:18:55] Signals:              0
+[01/28 20:18:55] MUSH shutdown completed.
+END OF LOG.

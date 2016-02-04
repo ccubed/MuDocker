@@ -47,7 +47,7 @@
  * the character you want to use in addition to +, enclosed in
  * single quotes, as in '=' or '.' or whatever. Don't define it to '+'!
  */
-/* #define CHAT_TOKEN_ALIAS	'=' /* */
+#define CHAT_TOKEN_ALIAS	'='	/* */
 
 
 /*------------------------- Cosmetic Features --------------------*/

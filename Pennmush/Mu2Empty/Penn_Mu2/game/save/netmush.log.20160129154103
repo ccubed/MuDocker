@@ -1,0 +1,62 @@
+START OF LOG.
+[01/29 15:22:22] CONFIG: directive 'who_file' missing from cnf file, using default value.
+[01/29 15:22:22] CONFIG: directive 'who_html_file' missing from cnf file, using default value.
+[01/29 15:22:22] CONFIG: directive 'sql_password' missing from cnf file, using default value.
+[01/29 15:22:22] 1.8.6
+[01/29 15:22:22] MUSH restarted, PID 1498, at Fri Jan 29 15:22:22 2016
+[01/29 15:22:22] Setting ctype locale to C
+[01/29 15:22:22] Setting time locale to C
+[01/29 15:22:22] Setting messages locale to C
+[01/29 15:22:22] Setting collate locale to C
+Listening on socket file data/netmush.sock (fd 9)
+[01/29 15:22:22] Couldn't open cached text file ''
+[01/29 15:22:22] ANALYZING: data/indb
+[01/29 15:22:22] ANALYZING: data/indb (done)
+[01/29 15:22:22] LOADING: data/indb
+[01/29 15:22:22] Loading database saved on Fri Jan 29 01:18:55 2016 UTC
+[01/29 15:22:22] READING: done
+[01/29 15:22:22] LOADING: data/indb (done)
+[01/29 15:22:22] LOADING: data/maildb
+[01/29 15:22:22] LOADING: data/maildb (done)
+[01/29 15:22:22] LOADING: data/chatdb
+[01/29 15:22:22] LOADING: data/chatdb (done)
+[01/29 15:22:22] Access file access.cnf not found.
+[01/29 15:22:22] Missing index for help_command anews
+[01/29 15:22:22] CONFIG: Invalid command or restriction for anews.
+[01/29 15:22:22] CONFIG: deprecated statement attribute_alias used
+[01/29 15:22:22] CONFIG: Couldn't alias desc to describe.
+[01/29 15:22:22] CONFIG: deprecated statement attribute_alias used
+[01/29 15:22:22] CONFIG: Couldn't alias idesc to idescribe.
+[01/29 15:22:22] CONFIG: deprecated statement attribute_alias used
+[01/29 15:22:22] CONFIG: Couldn't alias succ to success.
+[01/29 15:22:22] CONFIG: deprecated statement attribute_alias used
+[01/29 15:22:22] CONFIG: Couldn't alias osucc to osuccess.
+[01/29 15:22:22] CONFIG: deprecated statement attribute_alias used
+[01/29 15:22:22] CONFIG: Couldn't alias asucc to asuccess.
+[01/29 15:22:22] CONFIG: deprecated statement attribute_alias used
+[01/29 15:22:22] CONFIG: Couldn't alias fail to failure.
+[01/29 15:22:22] CONFIG: deprecated statement attribute_alias used
+[01/29 15:22:22] CONFIG: Couldn't alias ofail to ofailure.
+[01/29 15:22:22] CONFIG: deprecated statement attribute_alias used
+[01/29 15:22:22] CONFIG: Couldn't alias afail to afailure.
+[01/29 15:22:22] Spawning info slave, communicating using socketpair, pid 1499.
+Listening on port 4201 using IPv4.
+[01/29 15:22:22] 4089 file descriptors available.
+[01/29 15:22:22] RESTART FINISHED.
+info_slave: starting event loop using epoll.
+[01/29 15:36:12] RPT: SHUTDOWN by One(#1)
+
+[01/29 15:36:12] Terminating info_slave pid 1499
+[01/29 15:36:12] DUMPING: data/outdb.#4#
+[01/29 15:36:12] DUMPING: data/outdb.#4# (done)
+[01/29 15:36:12] Process statistics:
+[01/29 15:36:12] Time used:            0 user            0 sys
+[01/29 15:36:12] Max res mem:       6788 pages    27803648 bytes
+[01/29 15:36:12] Integral mem:         0 shared          0 private          0 stack
+[01/29 15:36:12] Page faults:          1 hard         1055 soft             0 swapouts
+[01/29 15:36:12] Disk I/O:           160 reads         176 writes
+[01/29 15:36:12] Network I/O:          0 in              0 out
+[01/29 15:36:12] Context swi:        852 vol             0 forced
+[01/29 15:36:12] Signals:              0
+[01/29 15:36:12] MUSH shutdown completed.
+END OF LOG.

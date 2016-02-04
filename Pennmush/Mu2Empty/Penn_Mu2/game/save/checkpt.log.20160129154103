@@ -1,0 +1,44 @@
+START OF LOG.
+[01/29 15:31:06] ** DUMP ** done by One(#1) at Fri Jan 29 15:31:06 2016
+[01/29 15:31:06] CHECKPOINTING: data/outdb.#1#
+[01/29 15:35:42] *** PARANOID DUMP *** done by One(#1),
+
+[01/29 15:35:42] 	checkpoint interval 1, at Fri Jan 29 15:35:42 2016
+[01/29 15:35:42] CHECKPOINTING: data/outdb.#2#
+[01/29 15:35:42] PARANOID WRITE BEGINNING...
+
+[01/29 15:35:42] 	...wrote up to object #0
+
+[01/29 15:35:42] 	...wrote up to object #1
+
+[01/29 15:35:42] 	...wrote up to object #2
+
+[01/29 15:35:42] 	...wrote up to object #3
+
+[01/29 15:35:42] 	...wrote up to object #4
+
+[01/29 15:35:42] 	...finished at object #4
+
+[01/29 15:35:42] END OF PARANOID WRITE.
+
+[01/29 15:36:01] *** DEBUG DUMP *** done by One(#1),
+
+[01/29 15:36:01] 	checkpoint interval 1, at Fri Jan 29 15:36:01 2016
+[01/29 15:36:01] CHECKPOINTING: data/outdb.#3#
+[01/29 15:36:01] PARANOID WRITE BEGINNING...
+
+[01/29 15:36:01] 	...wrote up to object #0
+
+[01/29 15:36:01] 	...wrote up to object #1
+
+[01/29 15:36:01] 	...wrote up to object #2
+
+[01/29 15:36:01] 	...wrote up to object #3
+
+[01/29 15:36:01] 	...wrote up to object #4
+
+[01/29 15:36:01] 	...finished at object #4
+
+[01/29 15:36:01] END OF PARANOID WRITE.
+
+END OF LOG.
