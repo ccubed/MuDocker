@@ -1,2 +1,0 @@
-Penn will compile and run out of the box on FreeBSD. Last tested with FreeBSD 10, courtesy of Fraibert.
-

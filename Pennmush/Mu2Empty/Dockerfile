@@ -1,19 +1,25 @@
 FROM codekoala/arch
 MAINTAINER alzie <ccubed.techno@gmail.com>
 # Install Git and other necessities
-RUN pacman -Syu --needed --noconfirm git gcc nano make mariadb
+RUN pacman -Syu --needed --noconfirm git gcc nano make mariadb ed
 # Mariadb setup
 RUN mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 # Clone Mu2
-RUN git clone https://github.com/ccubed/MuDocker.git
+RUN git clone https://github.com/ccubed/MuDocker.git && echo 'cache buster3'
+# Clone Pennmush
+RUN git clone https://github.com/pennmush/pennmush.git
 # Run .configure
-RUN cd MuDocker/Pennmush/Mu2Empty/Penn_Mu2 && ./configure --with-mysql --without-postgresql --without-sqlite3
+RUN cd pennmush && ./configure --with-mysql --without-postgresql --without-sqlite3
 # Wait and then run make
-RUN cd MuDocker/Pennmush/Mu2Empty/Penn_Mu2/src && make
+RUN cd pennmush/src && make
 # Make Install
-RUN cd MuDocker/Pennmush/Mu2Empty/Penn_Mu2 && make install
+RUN cd pennmush && make install
 # Need to set up DB
 RUN chmod +x MuDocker/Pennmush/Mu2Empty/init.docker.sh && ./MuDocker/Pennmush/Mu2Empty/init.docker.sh
+# Copy config and default database
+RUN cp MuDocker/Pennmush/Mu2Empty/Penn_Mu2/game/mush.cnf pennmush/game/
+RUN cp MuDocker/Pennmush/Mu2Empty/Penn_Mu2/game/data/indb.gz pennmush/game/data/
+RUN cp MuDocker/Pennmush/Mu2Empty/Penn_Mu2/game/data/outdb.gz pennmush/game/data/
 # Expose Game Port
 EXPOSE 4201
 # Penn wont run as root so make a new user

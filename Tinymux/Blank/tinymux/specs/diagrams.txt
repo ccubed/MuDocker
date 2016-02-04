@@ -1,2 +1,0 @@
-libmux-sd-001.dia - libmux UML Sequence Diagram. Loading a Dynamic Module.
-libmux-sd-002.dia - libmux UML Sequence Diagram. Unloading a Dynamic Module.
