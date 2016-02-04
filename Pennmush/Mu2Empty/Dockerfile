@@ -5,11 +5,13 @@ RUN pacman -Syu --needed --noconfirm git gcc nano make mariadb ed
 # Mariadb setup
 RUN mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 # Clone Mu2
-RUN git clone https://github.com/ccubed/MuDocker.git && echo 'cache buster3'
+RUN git clone https://github.com/ccubed/MuDocker.git && echo 'cache buster4'
 # Clone Pennmush
 RUN git clone https://github.com/pennmush/pennmush.git
 # Run .configure
 RUN cd pennmush && ./configure --with-mysql --without-postgresql --without-sqlite3
+# Move over options.h
+RUN cp MuDocker/Pennmush/Mu2Empty/Penn_Mu2/options.h pennmush/
 # Wait and then run make
 RUN cd pennmush/src && make
 # Make Install
